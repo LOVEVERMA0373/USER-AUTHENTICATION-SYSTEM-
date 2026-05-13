@@ -518,7 +518,7 @@ Perfect for learning Django fundamentals!
 
 <div align="center">
 
-**Developed with ❤️ by [Love Verma](https://github.com/LOVEVERMA0373)**
+**Developed with ❤️ by [Ayush Verma](https://github.com/LOVEVERMA0373)**
 
 If you find this project helpful, please consider giving it a ⭐ star!
 
