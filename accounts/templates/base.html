@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Authentication System</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+
+        body {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .navbar {
+            width: 100%;
+            background: #222;
+            color: white;
+            padding: 15px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .main {
+            height: calc(100vh - 60px);
+            display: flex;
+        }
+
+        .left {
+            width: 50%;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 32px;
+            padding: 20px;
+        }
+
+        .right {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-box {
+            width: 350px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            background: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        a {
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .message {
+            color: red;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .success {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="navbar">
+    User Authentication System
+</div>
+
+<div class="main">
+
+    <div class="left">
+        Welcome to My Website
+    </div>
+
+    <div class="right">
+        <div class="form-box">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
